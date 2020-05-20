@@ -1,0 +1,25 @@
+       a    b    c      d      e     f     g     h    i    j    k   l
+
+a         (a-b)                           (a-g)
+
+b                     (b-d)                               (b-j)
+
+c                     (c-d)                         (c-i)
+
+d                                                         (d-j)    (d-l)
+
+e                                   (e-f)                      (e-k)
+
+f                                         (f-g)     (f-i)
+
+g                                                        (g-j) (g-k)
+
+h                                                   (h-i)           (h-l)
+
+i                                                              (i-k)  (i-l)
+
+j                                                               (j-k)
+
+k
+
+l

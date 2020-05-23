@@ -7,10 +7,10 @@ import java.util.Set;
 
 public class Container4 {
 
-	static Double period1 = 1000000.0;
-	static Double period2 = 1000001.0;
+	static Double period1 = 65536.0;
+	static Double period2 = 65537.0;
 	static Long count = 0L;
-	static Integer size = 22;
+	static Integer size = 16;
 	static List<Wave> waves1= new ArrayList<Wave>();
 	static List<Wave> waves2= new ArrayList<Wave>();
 	
@@ -28,12 +28,12 @@ public class Container4 {
 				
 		Set<String> set = new HashSet<String>();
 		
-		while(count <1000000){
+		while(count <10000000){
 			String s = "";
 			String s1 = "";
 			String s2 = "";
 			
-		   Double x  = Math.random()*1000000000000.0 + 0.5;
+		   Double x  = Math.random()*655360.0 + 0.5;
 			 
 			for(int i=0;i<size;i++){
 			s =s + xor(waves1.get(i).evaluate(x),waves2.get(i).evaluate(x));	

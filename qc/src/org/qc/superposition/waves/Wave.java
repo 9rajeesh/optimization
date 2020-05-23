@@ -23,14 +23,14 @@ public class Wave {
 		Double value = getSquareWave(x);
 		//System.out.println("Square Value is:"+value);
 		
-		if(value >=0.8){
+		if(value >=0.5){
 		return 1;
 		}
-		else if(value < -0.8){
+		else if(value < -0.5){
 		return 0;
 		}
 	
-		return 2;
+		return 1;
 	}
 	
 	

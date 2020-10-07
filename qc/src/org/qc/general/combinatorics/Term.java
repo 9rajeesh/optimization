@@ -6,7 +6,8 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class Term {
-
+  
+	
 	private Long factor;
 	private Integer power2;
 	private List<String> variables = new ArrayList<String>();
